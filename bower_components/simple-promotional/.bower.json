@@ -1,0 +1,29 @@
+{
+  "name": "simple-promotional",
+  "description": "A simple banner to promote products hooked with Firebase",
+  "main": "simple-promotional.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.0-rc.2",
+    "paper-card": "PolymerElements/paper-card#^2.0.0",
+    "polymerfire": "firebase/polymerfire#^2.0.1",
+    "iron-ajax": "PolymerElements/iron-ajax#^2.0.1"
+  },
+  "devDependencies": {
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#2.0-preview",
+    "web-component-tester": "^6.0.0-prerelease.5",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0-rc.5"
+  },
+  "resolutions": {
+    "polymer": "^2.0.0-rc.2"
+  },
+  "homepage": "https://github.com/simple-promotional/simple-promotional-banner",
+  "_release": "b0722aef9b",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "b0722aef9b0a2fbe0bc49977d3b1dab484330974"
+  },
+  "_source": "https://github.com/simple-promotional/simple-promotional-banner.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/simple-promotional/simple-promotional-banner.git"
+}
