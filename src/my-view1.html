@@ -34,9 +34,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       database-url="https://simple-promotional.firebaseio.com"
       api-key="AIzaSyCSXARyIQ_7hJPhWPoqThRKVns1KGzaIuA">
     </firebase-app>
-
       <div class="card">
-        <banner-timeline src="/sampleData.json"></banner-timeline>
+        <banner-timeline src="/sampleData.json" selected={{selected}}></banner-timeline>
       </div>
     <div class="card">
       <iron-form id="content">
@@ -61,6 +60,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               return {
                 data: {
                   type: Object
+                },
+                selected: {
+                  type: Number
                 }
               }
             }
